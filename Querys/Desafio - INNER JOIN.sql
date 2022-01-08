@@ -93,6 +93,8 @@ Acesse o banco de dados bd_empresa e construa consultas SQL conforme solicitado 
  inner join empregado e on e.num_matricula = al.num_matricula
  Where nom_local = 'BH'
 
+ -- Resolução do Professor
+
  /*
  SELECT p.nom_projeto, 
        p.nom_local, 
