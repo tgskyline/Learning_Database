@@ -72,8 +72,10 @@ Acesse o banco de dados bd_empresa e construa consultas SQL conforme solicitado 
  from empregado e
  join empregado sup on e.num_matricula = sup.num_matricula_supervisor
 
- -- 5 - Liste os funcionários dos projetos de BH com o total de horas alocado.  Exibir nome e local do projeto, número de matrícula e nome do empregado e o total de horas alocado.
-
+/*
+5 - Liste os funcionários dos projetos de BH com o total de horas alocado.  
+Exibir nome e local do projeto, número de matrícula e nome do empregado e o total de horas alocado.
+*/
   select * 
  from empregado
 
