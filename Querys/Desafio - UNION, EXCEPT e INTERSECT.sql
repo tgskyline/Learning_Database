@@ -12,6 +12,8 @@ Acesse o banco de dados bd_filmes e construa consultas SQL conforme solicitado e
 
  */
 
+ -- MINHAS RESPOSTAS
+
  -- 1 - Listar os filmes que são do gênero Guerra ou do Gênero Ação
 
  use bd_filmes
@@ -159,3 +161,4 @@ AND dsc_filme NOT IN
      JOIN filmes_genero fg on fg.id_filme = f.id_filme
      JOIN generos g on g.id_genero = fg.id_genero
      WHERE g.dsc_genero = 'Ação')
+	 
