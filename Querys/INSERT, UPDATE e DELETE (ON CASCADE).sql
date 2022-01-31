@@ -37,6 +37,8 @@ from dependente
 Deleção de dados
 */
 
+-- Lembrar sempre de usar a clausula WHERE
+
 delete 
 from empregado
 where matemp = 12
